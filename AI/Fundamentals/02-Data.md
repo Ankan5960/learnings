@@ -141,7 +141,6 @@ Example
 10,000 customer records
 ```
 ![alt-image](../assets/components-of-dataset.png)
-![alt-image](../assets/data-example.png)
 ![alt-image](../assets/datasetflow.png)
 ---
 
@@ -255,6 +254,7 @@ Label
 ```
 Bought Laptop
 ```
+![alt-image](../assets/data-example.png)
 
 ---
 
