@@ -1,5 +1,3 @@
-# 📌 Topic
-
 # Data
 
 ---
@@ -15,7 +13,49 @@ The quality, quantity, and diversity of the data directly affect how well the mo
 > **Rule:** Better Data → Better Model
 
 ---
+## 📑 Contents
 
+- [Data](#data)
+  - [🎯 Purpose](#-purpose)
+  - [📑 Contents](#-contents)
+  - [💡 Intuition](#-intuition)
+  - [⚙️ Architecture](#️-architecture)
+  - [🔍 Types of Data](#-types-of-data)
+    - [Structured Data](#structured-data)
+    - [Unstructured Data](#unstructured-data)
+    - [Semi-Structured Data](#semi-structured-data)
+  - [⚙ Workflow](#-workflow)
+  - [🧩 Key Components](#-key-components)
+    - [📦 Dataset](#-dataset)
+  - [](#)
+    - [📈 Features (Input)](#-features-input)
+    - [🎯 Label (Output)](#-label-output)
+    - [📄 Sample](#-sample)
+    - [📊 Feature Matrix (X)](#-feature-matrix-x)
+    - [🎯 Target Vector (Y)](#-target-vector-y)
+  - [📚 Dataset Example](#-dataset-example)
+  - [💻 Example Code](#-example-code)
+  - [📌 Bullet Breakdown](#-bullet-breakdown)
+    - [What is Data?](#what-is-data)
+    - [What are Features?](#what-are-features)
+    - [What is a Label?](#what-is-a-label)
+    - [What is a Dataset?](#what-is-a-dataset)
+    - [Why is Data Important?](#why-is-data-important)
+  - [⚠ Common Mistakes](#-common-mistakes)
+  - [🚀 Used In](#-used-in)
+  - [📝 Interview Questions](#-interview-questions)
+    - [1. What is Data in Machine Learning?](#1-what-is-data-in-machine-learning)
+    - [2. What is a Feature?](#2-what-is-a-feature)
+    - [3. What is a Label?](#3-what-is-a-label)
+    - [4. What is the difference between Features and Labels?](#4-what-is-the-difference-between-features-and-labels)
+    - [5. Why is high-quality data important?](#5-why-is-high-quality-data-important)
+  - [⚡ 30-Second Revision](#-30-second-revision)
+  - [📌 Remember](#-remember)
+  - [📚 References](#-references)
+    - [Official](#official)
+    - [Learn](#learn)
+
+---
 ## 💡 Intuition
 
 Imagine you're teaching a child to identify cats.
