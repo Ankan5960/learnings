@@ -295,7 +295,25 @@ Copy this template whenever creating a new note.
 Why does this exist?
 
 ---
+## 📑 Contents
 
+- [🎯 Purpose](#-purpose)
+- [💡 Intuition](#-intuition)
+- [🏗 Architecture](#-architecture)
+- [⚙ Workflow](#-workflow)
+- [🧩 Key Components](#-key-components)
+- [📊 Types](#-types)
+- [📖 Real World Example](#-real-world-example)
+- [💻 Example Code](#-example-code)
+- [📌 Bullet Breakdown](#-bullet-breakdown)
+- [⚠ Common Mistakes](#-common-mistakes)
+- [🚀 Used In](#-used-in)
+- [📝 Interview Questions](#-interview-questions)
+- [⚡ 30-Second Revision](#-30-second-revision)
+- [📌 Remember](#-remember)
+- [📚 References](#-references)
+
+---
 ## 🏗 Architecture
 
 ```mermaid
