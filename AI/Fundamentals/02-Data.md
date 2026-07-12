@@ -105,7 +105,7 @@ Example
   "salary": 40000
 }
 ```
-![alt text](../assets/structured-data.png.png)
+![alt text](../assets/data/structured-data.png.png)
 
 ---
 
@@ -140,8 +140,8 @@ Example
 ```
 10,000 customer records
 ```
-![alt-image](../assets/components-of-dataset.png)
-![alt-image](../assets/datasetflow.png)
+![alt-image](../assets/data/components-of-dataset.png)
+![alt-image](../assets/data/datasetflow.png)
 ---
 
 ### 📈 Features (Input)
