@@ -58,7 +58,7 @@ Write the name of the concept.
 
 Example:
 
-```
+```ts
 JWT Authentication
 ```
 
@@ -72,7 +72,7 @@ Answer one question:
 
 Example:
 
-```
+```text
 Provides stateless authentication between client and server.
 ```
 
@@ -102,32 +102,15 @@ Explain the execution flow step by step.
 
 Example:
 
-```text
-User
+```mermaid
+flowchart TD
+    B["fa:fa-user User"]
+    B-->C["fa:fa-lock Login"]
+    C-->D["fa:fa-server Server"]
+    D-->E["fa:fa-store Client Stores Token"]
+    E-->F["fa:fa-helmet-safety Authorization Header"]
+    F-->G["fa:fa-arrow-down-up-lock Protected API"]
 
-↓
-
-Login
-
-↓
-
-Server
-
-↓
-
-JWT Generated
-
-↓
-
-Client Stores Token
-
-↓
-
-Authorization Header
-
-↓
-
-Protected API
 ```
 
 ---
@@ -172,7 +155,6 @@ Mention where this concept is used.
 
 Example:
 
-* TAC Smile Studio
 * EcoBin
 * CAD Editor
 * AWS Lambda APIs
@@ -251,21 +233,13 @@ Use this format:
 
 ```text
 Problem
-
 ↓
-
 Error
-
 ↓
-
 Root Cause
-
 ↓
-
 Solution
-
 ↓
-
 Prevention
 ```
 
@@ -299,15 +273,11 @@ Whenever possible, connect notes together.
 
 Example:
 
-```
+```bash
 Authentication
-
 ↳ JWT
-
 ↳ OAuth
-
 ↳ Cookies
-
 ↳ Sessions
 ```
 
@@ -318,15 +288,15 @@ Authentication
 Copy this template whenever creating a new note.
 
 ````markdown
-## 📌 Topic
+# 📌 Topic
 
-### 🎯 Purpose
+## 🎯 Purpose
 
 Why does this exist?
 
 ---
 
-### 🏗 Architecture
+## 🏗 Architecture
 
 ```mermaid
 graph LR
@@ -334,17 +304,13 @@ graph LR
 
 ---
 
-### ⚙ Workflow
+## ⚙ Workflow
 
-```text
+```
 Step 1
-
 ↓
-
 Step 2
-
 ↓
-
 Step 3
 ```
 
@@ -414,7 +380,7 @@ Use descriptive file names.
 
 ✅ Good
 
-```
+```bash
 jwt-authentication.md
 aws-lambda.md
 react-hooks.md
@@ -424,7 +390,7 @@ binary-search.md
 
 ❌ Avoid
 
-```
+```bash
 notes.md
 chapter1.md
 random.md
